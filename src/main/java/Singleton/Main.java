@@ -44,6 +44,7 @@ public class Main {
         logger.log("Выводим результат на экран");
         System.out.println("Отфильтрованный список: " + listElements);
         logger.log("Завершаем программу");
+        scanner.close();
     }
 
     private static StringBuilder listOut(int size, String value, StringBuilder listElements){
